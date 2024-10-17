@@ -1,0 +1,37 @@
+{
+  "name": "recipe-manager",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A collection for recipes and another for users or ingredients.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "swagger": "node ./swagger.js"
+  },
+  "author": "Kattia C",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.9.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@types/express": "^5.0.0",
+    "@types/swagger-ui-express": "^4.1.6",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.1",
+    "globals": "^15.11.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "swagger-autogen": "^2.23.7"
+  }
+}
