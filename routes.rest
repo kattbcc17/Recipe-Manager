@@ -5,7 +5,7 @@ Content-Type: application/json
 ###
 
 ### Get a single recipe by ID
-GET http://localhost:3000/recipes/67117e40b5dad6fb27c7568f
+GET http://localhost:3000/recipes/{id}
 Content-Type: application/json
 
 ###
@@ -31,7 +31,7 @@ Content-Type: application/json
 ###
 
 ### Update a recipe by ID
-PUT http://localhost:3000/recipes/67119a309ec287a3ae6cdccf
+PUT http://localhost:3000/recipes/{id}
 Content-Type: application/json
 
 {
@@ -51,5 +51,5 @@ Content-Type: application/json
 ###
 
 ### Delete a recipe by ID
-DELETE http://localhost:3000/recipes/67119a309ec287a3ae6cdccf
+DELETE http://localhost:3000/recipes/{id}
 Content-Type: application/json
